@@ -1,0 +1,23 @@
+/* FormularioEntrevista CSS */
+.entrevista-modal {
+  max-width: 700px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+.entrevista-form label {
+  font-size: 13px;
+}
+
+.entrevista-form input,
+.entrevista-form select {
+  padding: 8px 10px;
+}

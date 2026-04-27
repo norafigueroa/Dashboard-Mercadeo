@@ -1,0 +1,35 @@
+/* SelectorGeneracion CSS */
+.selector-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: white;
+  padding: 15px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  margin-bottom: 25px;
+}
+
+.selector-container label {
+  font-weight: 600;
+  color: #374151;
+  font-size: 15px;
+}
+
+.generacion-select {
+  padding: 10px 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+  min-width: 250px;
+  color: #1f2937;
+  background-color: #f9fafb;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.generacion-select:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}

@@ -1,0 +1,182 @@
+{
+  "contactoInicial": [
+    {
+      "id": "7bc2",
+      "nombre": "María",
+      "apellido": "Ruíz",
+      "provincia": "Puntarenas",
+      "movil": "78907890",
+      "sede": "Puntarenas",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "2026-04-27"
+    }
+  ],
+  "entrevistas": [],
+  "campusDays": [
+    {
+      "id": "1",
+      "nombre": "Campus Day 1",
+      "fecha": "17 abril 2026",
+      "sede": "Puntarenas",
+      "estado": "realizado",
+      "asistentes": null,
+      "pasaronAEntrevista": null
+    },
+    {
+      "id": "2",
+      "nombre": "Campus Day 2",
+      "fecha": "21 abril 2026",
+      "sede": "Desamparados",
+      "estado": "realizado",
+      "asistentes": null,
+      "pasaronAEntrevista": null
+    },
+    {
+      "id": "3",
+      "nombre": "Campus Day 3",
+      "fecha": "8 mayo 2026",
+      "sede": "Puntarenas",
+      "estado": "pendiente",
+      "asistentes": null,
+      "pasaronAEntrevista": null
+    },
+    {
+      "id": "4",
+      "nombre": "Campus Day 4",
+      "fecha": "12 mayo 2026",
+      "sede": "Desamparados",
+      "estado": "pendiente",
+      "asistentes": null,
+      "pasaronAEntrevista": null
+    },
+    {
+      "id": "5",
+      "nombre": "Campus Day 5",
+      "fecha": "22 mayo 2026",
+      "sede": "Puntarenas",
+      "estado": "pendiente",
+      "asistentes": null,
+      "pasaronAEntrevista": null
+    },
+    {
+      "id": "6",
+      "nombre": "Campus Day 6",
+      "fecha": "5 junio 2026",
+      "sede": "Puntarenas",
+      "estado": "pendiente",
+      "asistentes": null,
+      "pasaronAEntrevista": null
+    }
+  ],
+  "fases": [
+    {
+      "id": "1",
+      "fase": 1,
+      "semana": 2,
+      "periodo": "13–17 abril",
+      "meta": 8,
+      "acumulado": 8
+    },
+    {
+      "id": "2",
+      "fase": 1,
+      "semana": 3,
+      "periodo": "20–24 abril",
+      "meta": 12,
+      "acumulado": 20
+    },
+    {
+      "id": "3",
+      "fase": 1,
+      "semana": 4,
+      "periodo": "27 abr–1 may",
+      "meta": 10,
+      "acumulado": 30
+    },
+    {
+      "id": "4",
+      "fase": 2,
+      "semana": 5,
+      "periodo": "6–7 mayo",
+      "meta": 15,
+      "acumulado": 45
+    },
+    {
+      "id": "5",
+      "fase": 2,
+      "semana": 6,
+      "periodo": "11–15 mayo",
+      "meta": 15,
+      "acumulado": 60
+    },
+    {
+      "id": "6",
+      "fase": 3,
+      "semana": 7,
+      "periodo": "20–22 mayo",
+      "meta": 12,
+      "acumulado": 72
+    },
+    {
+      "id": "7",
+      "fase": 3,
+      "semana": 8,
+      "periodo": "25–29 mayo",
+      "meta": 18,
+      "acumulado": 90
+    },
+    {
+      "id": "8",
+      "fase": 4,
+      "semana": 9,
+      "periodo": "4–5 junio",
+      "meta": 8,
+      "acumulado": 98
+    },
+    {
+      "id": "9",
+      "fase": 4,
+      "semana": 10,
+      "periodo": "8–12 junio",
+      "meta": 12,
+      "acumulado": 110
+    },
+    {
+      "id": "10",
+      "fase": 4,
+      "semana": 11,
+      "periodo": "15–18 junio",
+      "meta": 6,
+      "acumulado": 116
+    }
+  ],
+  "generaciones": [
+    {
+      "id": "gen2-2026",
+      "nombre": "Generación II 2026",
+      "estado": "en_curso",
+      "becasTotal": 60,
+      "becasPuntarenas": 30,
+      "becasDesamparados": 30,
+      "inicioInscripciones": "5 abril 2026",
+      "cierreInscripciones": "19 junio 2026",
+      "semanaPrueba": "13–17 julio 2026",
+      "inicioOficial": "13 julio 2026",
+      "graduacion": "18 de diciembre de 2026",
+      "ingresaronSemanaPrueba": 0,
+      "permanentes": 0,
+      "abandonaronPrueba": 0,
+      "completaronFrontend": 0,
+      "completaronBackend": 0,
+      "graduadosFullStack": 0
+    }
+  ],
+  "configuracion": {
+    "metaEntrevistas": 110,
+    "espaciosMaximos": 116,
+    "sedesActivas": [
+      "Puntarenas",
+      "Desamparados"
+    ]
+  }
+}

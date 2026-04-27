@@ -1,0 +1,49 @@
+/* CronogramaFases CSS */
+.cronograma-container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.cronograma-container h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+.fases-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.fases-table th,
+.fases-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.fases-table th {
+  background-color: #f8fafc;
+  color: #475569;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.fases-table tbody tr:hover {
+  background-color: #f1f5f9;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-blue {
+  color: #2563eb;
+}
