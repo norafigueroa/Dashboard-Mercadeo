@@ -383,24 +383,47 @@ const ContactoInicial = () => {
   const totalPuntarenas = contactosFiltrados.filter(c => (c.sede || '').toLowerCase().includes('puntarenas')).length;
   const totalDesamparados = contactosFiltrados.filter(c => (c.sede || '').toLowerCase().includes('desamparados')).length;
 
-  // Chart Data: Distribución por Estado
-  const dataEstado = useMemo(() => {
-    const counts = contactosFiltrados.reduce((acc, curr) => {
-      acc[curr.estado] = (acc[curr.estado] || 0) + 1;
-      return acc;
-    }, {});
-    return Object.keys(counts).map(key => ({ name: key, count: counts[key] }));
+  // Estados reales extraídos dinámicamente de los datos
+  const estadosReales = useMemo(() => {
+    const states = new Set(contactosFiltrados.map(c => (c.estado || "").trim()).filter(Boolean));
+    return Array.from(states).sort();
   }, [contactosFiltrados]);
 
-  // Chart Data: Distribución por Provincia
-  const dataProvincia = useMemo(() => {
+  // Chart Data: Funnel de Conversión (estados dinámicos) 
+  const dataFunnel = useMemo(() => {
     const counts = contactosFiltrados.reduce((acc, curr) => {
-      const prov = curr.provincia || 'Desconocida';
-      acc[prov] = (acc[prov] || 0) + 1;
+      const estado = (curr.estado || "").trim();
+      if (estado) acc[estado] = (acc[estado] || 0) + 1;
       return acc;
     }, {});
-    return Object.keys(counts).map(key => ({ name: key, value: counts[key] }));
-  }, [contactosFiltrados]);
+
+    return estadosReales.map(status => ({
+      name: status,
+      cantidad: counts[status] || 0
+    }));
+  }, [contactosFiltrados, estadosReales]);
+
+  // Chart Data: Comparativa de Sedes por Estado (Stacked Bar, dinámico)
+  const dataSedeEstado = useMemo(() => {
+    const sedes = ['Puntarenas', 'Desamparados'];
+    
+    return sedes.map(sede => {
+      const data = { name: sede };
+      estadosReales.forEach(estado => {
+        data[estado] = contactosFiltrados.filter(c => 
+          (c.sede || '').toLowerCase().includes(sede.toLowerCase()) && 
+          (c.estado || '').trim() === estado
+        ).length;
+      });
+      return data;
+    });
+  }, [contactosFiltrados, estadosReales]);
+
+  // Chart Data: Distribución por Sede (Doughnut)
+  const dataSedesPie = useMemo(() => [
+    { name: 'Puntarenas', value: totalPuntarenas },
+    { name: 'Desamparados', value: totalDesamparados }
+  ], [totalPuntarenas, totalDesamparados]);
 
   if (loading) {
     return <div className="loading">Cargando...</div>;
@@ -437,37 +460,51 @@ const ContactoInicial = () => {
 
       <div className="charts-container">
         <div className="chart-box">
-          <h3>Distribución por Estado</h3>
+          <h3>Funnel de Conversión</h3>
           <ResponsiveContainer width="100%" height={300}>
-            <BarChart data={dataEstado} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
-              <XAxis dataKey="name" tick={{fontSize: 12}} />
-              <YAxis />
-              <Tooltip />
-              <Bar dataKey="count" fill="#3b82f6" radius={[4, 4, 0, 0]} />
+            <BarChart data={dataFunnel} layout="vertical" margin={{ top: 5, right: 30, left: 40, bottom: 5 }}>
+              <XAxis type="number" hide />
+              <YAxis dataKey="name" type="category" width={100} />
+              <Tooltip cursor={{fill: 'transparent'}} />
+              <Bar dataKey="cantidad" fill="#3b82f6" radius={[0, 4, 4, 0]} label={{ position: 'right', fill: '#666' }} />
             </BarChart>
           </ResponsiveContainer>
         </div>
 
         <div className="chart-box">
-          <h3>Distribución por Provincia</h3>
+          <h3>Comparativa de Sedes por Estado</h3>
+          <ResponsiveContainer width="100%" height={300}>
+            <BarChart data={dataSedeEstado}>
+              <XAxis dataKey="name" />
+              <YAxis />
+              <Tooltip />
+              <Legend />
+              {estadosReales.map((estado, idx) => (
+                <Bar key={estado} dataKey={estado} stackId="a" fill={COLORS[idx % COLORS.length]} />
+              ))}
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+
+        <div className="chart-box">
+          <h3>Distribución por Sede</h3>
           <ResponsiveContainer width="100%" height={300}>
             <PieChart>
               <Pie
-                data={dataProvincia}
+                data={dataSedesPie}
                 cx="50%"
                 cy="50%"
-                labelLine={false}
-                outerRadius={100}
-                fill="#8884d8"
+                innerRadius={60}
+                outerRadius={80}
+                paddingAngle={5}
                 dataKey="value"
                 label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
               >
-                {dataProvincia.map((entry, index) => (
-                  <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                ))}
+                <Cell fill="#0088FE" />
+                <Cell fill="#FF8042" />
               </Pie>
               <Tooltip />
-              <Legend />
+              <Legend verticalAlign="bottom" />
             </PieChart>
           </ResponsiveContainer>
         </div>
