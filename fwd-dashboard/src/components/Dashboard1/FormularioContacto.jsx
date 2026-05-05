@@ -2,13 +2,14 @@ import { useState, useEffect } from 'react';
 import './FormularioContacto.css';
 
 const estados = [
-  'Por contactar',
-  'Espera de respuesta',
+  'Confirma asistencia a CD',
+  'Contesto y No esta interesado',
   'No contestó',
-  'Confirmó asistencia',
-  'Confirmó no asistencia',
-  'Asistió al Campus Day',
-  'Pasó a entrevista'
+  'Segunda llamada',
+  'Espera de respuesta',
+  'Pendiente',
+  'Llegó al CD',
+  'Entrevista'
 ];
 
 const FormularioContacto = ({ isOpen, onClose, onSave, contactoAEditar }) => {
@@ -18,7 +19,7 @@ const FormularioContacto = ({ isOpen, onClose, onSave, contactoAEditar }) => {
     provincia: '',
     movil: '',
     sede: 'Puntarenas',
-    estado: 'Por contactar',
+    estado: 'Pendiente',
     fechaContacto: ''
   });
 
@@ -32,7 +33,7 @@ const FormularioContacto = ({ isOpen, onClose, onSave, contactoAEditar }) => {
         provincia: '',
         movil: '',
         sede: 'Puntarenas',
-        estado: 'Por contactar',
+        estado: 'Pendiente',
         fechaContacto: ''
       });
     }

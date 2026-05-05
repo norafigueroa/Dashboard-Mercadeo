@@ -1,13 +1,13 @@
-import axios from 'axios';
+import api from './api';
 
-const API_URL = 'http://localhost:3001/generaciones';
+const ENDPOINT = '/academica';
 
 export const getGeneraciones = async () => {
-  const response = await axios.get(API_URL);
+  const response = await api.get(ENDPOINT);
   return response.data;
 };
 
 export const updateGeneracion = async (id, data) => {
-  const response = await axios.patch(`${API_URL}/${id}`, data);
+  const response = await api.patch(`${ENDPOINT}/${id}`, data);
   return response.data;
 };

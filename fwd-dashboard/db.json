@@ -9,63 +9,923 @@
       "sede": "Puntarenas",
       "estado": "Espera de respuesta",
       "fechaContacto": "2026-04-27"
+    },
+    {
+      "id": "2441",
+      "nombre": "eduardo josue",
+      "apellido": "zamora valverde",
+      "provincia": "Alajuela",
+      "movil": "50662277838",
+      "sede": "Puntarenas",
+      "estado": "Espera de respuesta",
+      "fechaContacto": ""
+    },
+    {
+      "id": "26ec",
+      "nombre": "Kevin Steven",
+      "apellido": "Alpizar Diaz",
+      "provincia": "Puntarenas",
+      "movil": "50660742252",
+      "sede": "Puntarenas",
+      "estado": "Contestó y va CD",
+      "fechaContacto": "24/04/2026 14:16"
+    },
+    {
+      "id": "bb3f",
+      "nombre": "Fernando",
+      "apellido": "Fonseca",
+      "provincia": "Puntarenas",
+      "movil": "50687458798",
+      "sede": "Puntarenas",
+      "estado": "Entrevista",
+      "fechaContacto": "24/04/2026 13:26"
+    },
+    {
+      "id": "be5b",
+      "nombre": "Byron",
+      "apellido": "Abarca Chacón",
+      "provincia": "Puntarenas",
+      "movil": "50660883404",
+      "sede": "Puntarenas",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "24/04/2026 13:14"
+    },
+    {
+      "id": "f723",
+      "nombre": "Natalia",
+      "apellido": "Villalobos",
+      "provincia": "Puntarenas",
+      "movil": "50688401256",
+      "sede": "Puntarenas",
+      "estado": "Contestó y va CD",
+      "fechaContacto": "23/04/2026 8:09"
+    },
+    {
+      "id": "03f7",
+      "nombre": "An",
+      "apellido": "",
+      "provincia": "Puntarenas",
+      "movil": "50660543484",
+      "sede": "Puntarenas",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "21/04/2026 10:01"
+    },
+    {
+      "id": "a746",
+      "nombre": "Rossman",
+      "apellido": "Rivera Cano",
+      "provincia": "Puntarenas",
+      "movil": "50661160600",
+      "sede": "Puntarenas",
+      "estado": "Contestó y va CD",
+      "fechaContacto": "18/04/2026 14:40"
+    },
+    {
+      "id": "65ab",
+      "nombre": "Jazmin",
+      "apellido": "Rivas Mendez",
+      "provincia": "Puntarenas",
+      "movil": "50672379575",
+      "sede": "Puntarenas",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "18/04/2026 13:03"
+    },
+    {
+      "id": "ae90",
+      "nombre": "Edward",
+      "apellido": "cruz",
+      "provincia": "Puntarenas",
+      "movil": "50664707048",
+      "sede": "Puntarenas",
+      "estado": "Por contactar",
+      "fechaContacto": "17/04/2026 9:19"
+    },
+    {
+      "id": "ef41",
+      "nombre": "Michelle",
+      "apellido": "Zelaya",
+      "provincia": "Puntarenas",
+      "movil": "50661667351",
+      "sede": "Puntarenas",
+      "estado": "Por contactar",
+      "fechaContacto": "16/04/2026 18:34"
+    },
+    {
+      "id": "d9d3",
+      "nombre": "Erian Andrés",
+      "apellido": "Badilla Fallas",
+      "provincia": "Puntarenas",
+      "movil": "50684081840",
+      "sede": "Puntarenas",
+      "estado": "Por contactar",
+      "fechaContacto": "16/04/2026 17:38"
+    },
+    {
+      "id": "3d0e",
+      "nombre": "Alanie",
+      "apellido": "Castillo",
+      "provincia": "Puntarenas",
+      "movil": "50661143277",
+      "sede": "Puntarenas",
+      "estado": "Por contactar",
+      "fechaContacto": "16/04/2026 16:41"
+    },
+    {
+      "id": "37e7",
+      "nombre": "Cherli",
+      "apellido": "Campos",
+      "provincia": "Puntarenas",
+      "movil": "50660030203",
+      "sede": "Puntarenas",
+      "estado": "Por contactar",
+      "fechaContacto": "16/04/2026 16:13"
+    },
+    {
+      "id": "9747",
+      "nombre": "Luifran",
+      "apellido": "Espinoza",
+      "provincia": "Puntarenas",
+      "movil": "50661245536",
+      "sede": "Puntarenas",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "16/04/2026 15:05"
+    },
+    {
+      "id": "81d1",
+      "nombre": "Pamela",
+      "apellido": "Hernandez Pereira",
+      "provincia": "Puntarenas",
+      "movil": "50662544647",
+      "sede": "Puntarenas",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "16/04/2026 14:16"
+    },
+    {
+      "id": "6654",
+      "nombre": "Reichell",
+      "apellido": "Johanna",
+      "provincia": "Puntarenas",
+      "movil": "50684266106",
+      "sede": "Puntarenas",
+      "estado": "Por contactar",
+      "fechaContacto": "16/04/2026 13:19"
+    },
+    {
+      "id": "2a13",
+      "nombre": "Christian",
+      "apellido": "Caravaca Cordero",
+      "provincia": "Puntarenas",
+      "movil": "50684090243",
+      "sede": "Puntarenas",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "16/04/2026 13:09"
+    },
+    {
+      "id": "ac28",
+      "nombre": "Freyman",
+      "apellido": "",
+      "provincia": "",
+      "movil": "50670890311",
+      "sede": "Puntarenas",
+      "estado": "Contestó y va CD",
+      "fechaContacto": "16/04/2026 11:49"
+    },
+    {
+      "id": "4456",
+      "nombre": "Scarlett",
+      "apellido": "",
+      "provincia": "",
+      "movil": "50687211090",
+      "sede": "Puntarenas",
+      "estado": "Contestó y va CD",
+      "fechaContacto": "16/04/2026 11:13"
+    },
+    {
+      "id": "46d5",
+      "nombre": "Yerlin❤!",
+      "apellido": "",
+      "provincia": "",
+      "movil": "50689436802",
+      "sede": "Puntarenas",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "14/04/2026 15:42"
+    },
+    {
+      "id": "622e",
+      "nombre": "Josh●",
+      "apellido": "",
+      "provincia": "",
+      "movil": "50683599105",
+      "sede": "Puntarenas",
+      "estado": "Contestó y va CD",
+      "fechaContacto": "14/04/2026 10:24"
+    },
+    {
+      "id": "2292",
+      "nombre": "Génesis Noelia",
+      "apellido": "Céspedes Marín",
+      "provincia": "Puntarenas",
+      "movil": "50684852978",
+      "sede": "Puntarenas",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "13/04/2026 16:05"
+    },
+    {
+      "id": "d1b7",
+      "nombre": "Eiberson",
+      "apellido": "Maltez",
+      "provincia": "Puntarenas",
+      "movil": "50671100529",
+      "sede": "Puntarenas",
+      "estado": "No contesto",
+      "fechaContacto": "12/04/2026 14:24"
+    },
+    {
+      "id": "60a0",
+      "nombre": "Emanuel",
+      "apellido": "Méndez Cantillo",
+      "provincia": "Puntarenas",
+      "movil": "50664746362",
+      "sede": "Puntarenas",
+      "estado": "Legó al CD",
+      "fechaContacto": "10/04/2026 7:52"
+    },
+    {
+      "id": "47e3",
+      "nombre": "Ka",
+      "apellido": "",
+      "provincia": "Puntarenas",
+      "movil": "50671087361",
+      "sede": "Puntarenas",
+      "estado": "Por contactar",
+      "fechaContacto": "04/03/2026 11:24"
+    },
+    {
+      "id": "0a76",
+      "nombre": "Oss",
+      "apellido": "",
+      "provincia": "Puntarenas",
+      "movil": "50670702136",
+      "sede": "Puntarenas",
+      "estado": "Por contactar",
+      "fechaContacto": "04/03/2026 11:20"
+    },
+    {
+      "id": "e413",
+      "nombre": "Andre Kelso",
+      "apellido": "",
+      "provincia": "Puntarenas",
+      "movil": "50688184545",
+      "sede": "Puntarenas",
+      "estado": "Por contactar",
+      "fechaContacto": "27/02/2026 9:07"
+    },
+    {
+      "id": "3e1c",
+      "nombre": "Daniela Bravo",
+      "apellido": "",
+      "provincia": "Puntarenas",
+      "movil": "50688193727",
+      "sede": "Puntarenas",
+      "estado": "Por contactar",
+      "fechaContacto": "18/02/2026 8:19"
+    },
+    {
+      "id": "e2c3",
+      "nombre": "Josue Calvo",
+      "apellido": "",
+      "provincia": "Puntarenas",
+      "movil": "50664008937",
+      "sede": "Puntarenas",
+      "estado": "Por contactar",
+      "fechaContacto": "05/02/2026 23:34"
+    },
+    {
+      "id": "6d45",
+      "nombre": "Sebastian",
+      "apellido": "Hernandez",
+      "provincia": "Puntarenas",
+      "movil": "50662308168",
+      "sede": "Puntarenas",
+      "estado": "Por contactar",
+      "fechaContacto": "15/01/2026 13:11"
+    },
+    {
+      "id": "983e",
+      "nombre": "Carlos",
+      "apellido": "Rojas",
+      "provincia": "Puntarenas",
+      "movil": "50686611629",
+      "sede": "Puntarenas",
+      "estado": "Por contactar",
+      "fechaContacto": "10/01/2026 18:28"
+    },
+    {
+      "id": "8ad7",
+      "nombre": "Ariel",
+      "apellido": "Sosa",
+      "provincia": "Puntarenas",
+      "movil": "50660050320",
+      "sede": "Puntarenas",
+      "estado": "Por contactar",
+      "fechaContacto": "10/01/2026 15:05"
+    },
+    {
+      "id": "0f70",
+      "nombre": "Ana Fabiana",
+      "apellido": "Obando Mora",
+      "provincia": "Puntarenas",
+      "movil": "50664338793",
+      "sede": "Puntarenas",
+      "estado": "Por contactar",
+      "fechaContacto": "08/01/2026 14:32"
+    },
+    {
+      "id": "4f9b",
+      "nombre": "Jenny Vanessa",
+      "apellido": "Montiel Marchena",
+      "provincia": "Puntarenas",
+      "movil": "50660266501",
+      "sede": "Puntarenas",
+      "estado": "Por contactar",
+      "fechaContacto": "08/01/2026 12:03"
+    },
+    {
+      "id": "d7fb",
+      "nombre": "Ernesto Libby",
+      "apellido": "Libby Lugo",
+      "provincia": "San José",
+      "movil": "50686425281",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "22/04/2026 13:14"
+    },
+    {
+      "id": "44c3",
+      "nombre": "Daniel",
+      "apellido": "Picado Fernández",
+      "provincia": "San José",
+      "movil": "50672403450",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Contestó y va CD",
+      "fechaContacto": "22/04/2026 11:13"
+    },
+    {
+      "id": "3ec1",
+      "nombre": "Ulysses",
+      "apellido": "Quirós Valverde",
+      "provincia": "San José",
+      "movil": "50671120037",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "21/04/2026 0:20"
+    },
+    {
+      "id": "ec2d",
+      "nombre": "Montserrat",
+      "apellido": "Cascante",
+      "provincia": "San José",
+      "movil": "50672028165",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Por contactar",
+      "fechaContacto": "17/04/2026 22:39"
+    },
+    {
+      "id": "b8f2",
+      "nombre": "Alex",
+      "apellido": "Jiménez Meléndez",
+      "provincia": "San José",
+      "movil": "50688098819",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Por contactar",
+      "fechaContacto": "17/04/2026 13:26"
+    },
+    {
+      "id": "8f1a",
+      "nombre": "Alexa",
+      "apellido": "Chaves Sánchez",
+      "provincia": "San José",
+      "movil": "50660279433",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Por contactar",
+      "fechaContacto": "17/04/2026 0:35"
+    },
+    {
+      "id": "03df",
+      "nombre": "Monserrat",
+      "apellido": "Cerdas",
+      "provincia": "San José",
+      "movil": "50660568418",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "16/04/2026 12:45"
+    },
+    {
+      "id": "075b",
+      "nombre": "Luzdary",
+      "apellido": "Selva Calderón",
+      "provincia": "San José",
+      "movil": "50663243471",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "16/04/2026 12:25"
+    },
+    {
+      "id": "58ee",
+      "nombre": "Fabián",
+      "apellido": "Padilla",
+      "provincia": "San José",
+      "movil": "50686469816",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "16/04/2026 11:22"
+    },
+    {
+      "id": "f27f",
+      "nombre": "KRISTOPHER",
+      "apellido": "MENDIZABAL",
+      "provincia": "San José",
+      "movil": "50672470393",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Contestó y va CD",
+      "fechaContacto": "16/04/2026 11:20"
+    },
+    {
+      "id": "f83f",
+      "nombre": "Sebastían",
+      "apellido": "Jiménez Barahona",
+      "provincia": "San José",
+      "movil": "50689964514",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "16/04/2026 11:16"
+    },
+    {
+      "id": "af24",
+      "nombre": "Gabriel",
+      "apellido": "Fernández Castillo",
+      "provincia": "San José",
+      "movil": "60543484",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "16/04/2026 11:10"
+    },
+    {
+      "id": "0631",
+      "nombre": "Jonatan",
+      "apellido": "Hernandez",
+      "provincia": "San José",
+      "movil": "50686056951",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Contestó y va CD",
+      "fechaContacto": "16/04/2026 11:04"
+    },
+    {
+      "id": "22e7",
+      "nombre": "Daleysha",
+      "apellido": "Muñiz",
+      "provincia": "San José",
+      "movil": "50672594839",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Contestó y va CD",
+      "fechaContacto": "16/04/2026 10:54"
+    },
+    {
+      "id": "4e17",
+      "nombre": "Sebastian",
+      "apellido": "Flores",
+      "provincia": "San José",
+      "movil": "50664491100",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Pendiente",
+      "fechaContacto": "16/04/2026 10:54"
+    },
+    {
+      "id": "014b",
+      "nombre": "Alejandro",
+      "apellido": "Pinto",
+      "provincia": "San José",
+      "movil": "50670057350",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "16/04/2026 10:51"
+    },
+    {
+      "id": "ee0c",
+      "nombre": "Alex",
+      "apellido": "Cubero Duarte",
+      "provincia": "San José",
+      "movil": "50661642533",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "16/04/2026 10:09"
+    },
+    {
+      "id": "36f1",
+      "nombre": "Jose",
+      "apellido": "Soto",
+      "provincia": "San José",
+      "movil": "50663259287",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Contestó y va CD",
+      "fechaContacto": "16/04/2026 0:10"
+    },
+    {
+      "id": "4187",
+      "nombre": "ALLISON",
+      "apellido": "Leon",
+      "provincia": "San José",
+      "movil": "50670524404",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Contestó y va CD",
+      "fechaContacto": "15/04/2026 19:39"
+    },
+    {
+      "id": "656d",
+      "nombre": "Emely",
+      "apellido": "Madrigal Espinales",
+      "provincia": "San José",
+      "movil": "50670535964",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "15/04/2026 19:06"
+    },
+    {
+      "id": "9115",
+      "nombre": "Jordan",
+      "apellido": "Vásquez Sánchez",
+      "provincia": "Heredia",
+      "movil": "50663273295",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "15/04/2026 15:40"
+    },
+    {
+      "id": "0ee3",
+      "nombre": "Geiner",
+      "apellido": "Espinoza",
+      "provincia": "San José",
+      "movil": "50683707807",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "15/04/2026 14:33"
+    },
+    {
+      "id": "60b6",
+      "nombre": "Freychel",
+      "apellido": "Hidalgo Mendez",
+      "provincia": "San José",
+      "movil": "50684555315",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "15/04/2026 9:57"
+    },
+    {
+      "id": "a920",
+      "nombre": "Yerlin",
+      "apellido": "Guzman",
+      "provincia": "San José",
+      "movil": "50683748849",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Contestó y va CD",
+      "fechaContacto": "15/04/2026 9:19"
+    },
+    {
+      "id": "d158",
+      "nombre": "Joselyn",
+      "apellido": "Segura",
+      "provincia": "San José",
+      "movil": "50689493336",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Contestó y va CD",
+      "fechaContacto": "15/04/2026 0:47"
+    },
+    {
+      "id": "d1ed",
+      "nombre": "Darren",
+      "apellido": "Miranda",
+      "provincia": "San José",
+      "movil": "50685767573",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "14/04/2026 14:00"
+    },
+    {
+      "id": "c453",
+      "nombre": "Yendry",
+      "apellido": "Loria calderon",
+      "provincia": "San José",
+      "movil": "50684856482",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "14/04/2026 13:50"
+    },
+    {
+      "id": "4eaa",
+      "nombre": "Joselyn",
+      "apellido": "Barboza Madrigal",
+      "provincia": "San José",
+      "movil": "50688310550",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "14/04/2026 13:15"
+    },
+    {
+      "id": "6650",
+      "nombre": "Erick",
+      "apellido": "Jiménez",
+      "provincia": "San José",
+      "movil": "50672955757",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Contestó y va CD",
+      "fechaContacto": "14/04/2026 12:48"
+    },
+    {
+      "id": "bc95",
+      "nombre": "Luis Alonso",
+      "apellido": "Calderón Contreras",
+      "provincia": "San José",
+      "movil": "50685114683",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "14/04/2026 10:43"
+    },
+    {
+      "id": "b655",
+      "nombre": "Aiden",
+      "apellido": "Montero",
+      "provincia": "San José",
+      "movil": "50687798700",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "14/04/2026 9:10"
+    },
+    {
+      "id": "c1bb",
+      "nombre": "Cinthya Paola",
+      "apellido": "Campos Jiménez",
+      "provincia": "San José",
+      "movil": "50671358466",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Contestó y va CD",
+      "fechaContacto": "13/04/2026 21:19"
+    },
+    {
+      "id": "4091",
+      "nombre": "Juan",
+      "apellido": "Zuñiga Ugarte",
+      "provincia": "San José",
+      "movil": "50684707995",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "13/04/2026 20:37"
+    },
+    {
+      "id": "d357",
+      "nombre": "Priscila",
+      "apellido": "Vega Solera",
+      "provincia": "San José",
+      "movil": "50606200000000000",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Contestó y va CD",
+      "fechaContacto": "13/04/2026 18:16"
+    },
+    {
+      "id": "a616",
+      "nombre": "Jimena",
+      "apellido": "Calderon bonilla",
+      "provincia": "San José",
+      "movil": "50662655725",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "13/04/2026 17:07"
+    },
+    {
+      "id": "3729",
+      "nombre": "Alex Fabian",
+      "apellido": "Cubero Duarte",
+      "provincia": "San José",
+      "movil": "50660211521",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Por contactar",
+      "fechaContacto": "09/04/2026 18:25"
+    },
+    {
+      "id": "4312",
+      "nombre": "Shantall",
+      "apellido": "Hidalgo Morales",
+      "provincia": "San José",
+      "movil": "50663050384",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Por contactar",
+      "fechaContacto": "09/04/2026 15:45"
+    },
+    {
+      "id": "9c6b",
+      "nombre": "Jill",
+      "apellido": "Vega Bolaños",
+      "provincia": "San José",
+      "movil": "50672846995",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Por contactar",
+      "fechaContacto": "09/04/2026 15:08"
+    },
+    {
+      "id": "4dd6",
+      "nombre": "Estefanía",
+      "apellido": "Ruíz Guzmán",
+      "provincia": "San José",
+      "movil": "50671584898",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Por contactar",
+      "fechaContacto": "09/04/2026 12:05"
+    },
+    {
+      "id": "2c91",
+      "nombre": "Elkin",
+      "apellido": "Rodríguez Gutiérrez",
+      "provincia": "San José",
+      "movil": "50670837031",
+      "sede": "Parque La Libertad / Desamparados",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "16/01/2026 9:25"
+    },
+    {
+      "id": "2862",
+      "nombre": "Lizbeth",
+      "apellido": "Barahona",
+      "provincia": "San José",
+      "movil": "50662457504",
+      "sede": "Parque La Libertad / Desamparados",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "14/01/2026 14:49"
+    },
+    {
+      "id": "5fde",
+      "nombre": "José Pablo",
+      "apellido": "Acuña Alvarado",
+      "provincia": "San José",
+      "movil": "50660402659",
+      "sede": "Parque La Libertad / Desamparados",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "07/01/2026 21:15"
+    },
+    {
+      "id": "6bb3",
+      "nombre": "Luis",
+      "apellido": "Espinoza",
+      "provincia": "San José",
+      "movil": "50663895173",
+      "sede": "Parque La Libertad / Desamparados",
+      "estado": "Espera de respuesta",
+      "fechaContacto": "07/01/2026 15:13"
+    },
+    {
+      "id": "5892",
+      "nombre": "Jersiel",
+      "apellido": "Juarez pulido",
+      "provincia": "San José",
+      "movil": "50661488246",
+      "sede": "Parque La Libertad / Desamparados",
+      "estado": "Por contactar",
+      "fechaContacto": "07/01/2026 15:10"
+    },
+    {
+      "id": "8f1f",
+      "nombre": "Maylyn Raquel",
+      "apellido": "Cabezas Zamora",
+      "provincia": "San José",
+      "movil": "50672378767",
+      "sede": "Parque La Libertad / Desamparados",
+      "estado": "Por contactar",
+      "fechaContacto": "06/01/2026 11:41"
+    },
+    {
+      "id": "eb4a",
+      "nombre": "Maria jose",
+      "apellido": "Obando Soto",
+      "provincia": "San José",
+      "movil": "50672044273",
+      "sede": "Parque La Libertad / Desamparados",
+      "estado": "Por contactar",
+      "fechaContacto": "05/01/2026 18:44"
+    },
+    {
+      "id": "49f9",
+      "nombre": "Bryan",
+      "apellido": "Gutiérrez Villalobos",
+      "provincia": "Puntarenas",
+      "movil": "50660404198",
+      "sede": "Puntarenas",
+      "estado": "Por contactar",
+      "fechaContacto": "26/04/2026 11:53"
+    },
+    {
+      "id": "5553",
+      "nombre": "Xiany",
+      "apellido": "Cascante Adaniz",
+      "provincia": "Puntarenas",
+      "movil": "50685831406",
+      "sede": "Puntarenas",
+      "estado": "Por contactar",
+      "fechaContacto": ""
+    },
+    {
+      "id": "4bf1",
+      "nombre": "Alicia",
+      "apellido": "Núñez Torres",
+      "provincia": "Puntarenas",
+      "movil": "50662507846",
+      "sede": "Puntarenas",
+      "estado": "Pendiente",
+      "fechaContacto": "24/04/2026 12:42"
+    },
+    {
+      "id": "a3d5",
+      "nombre": "Esteban",
+      "apellido": "González Bermúdez",
+      "provincia": "San José",
+      "movil": "50662893743",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": ""
+    },
+    {
+      "id": "ddc4",
+      "nombre": "Samuel Quirós",
+      "apellido": "",
+      "provincia": "San José",
+      "movil": "50671735631",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": ""
+    },
+    {
+      "id": "8461",
+      "nombre": "Bianca",
+      "apellido": "Moñuz Valverde",
+      "provincia": "Puntarenas",
+      "movil": "50662100878",
+      "sede": "Desamparados Centro Cívico la Capri",
+      "estado": "Espera de respuesta",
+      "fechaContacto": ""
     }
   ],
   "entrevistas": [],
   "campusDays": [
     {
       "id": "1",
-      "nombre": "Campus Day 1",
-      "fecha": "17 abril 2026",
+      "nombre": "Campus Day",
+      "fecha": "17 de Abril",
       "sede": "Puntarenas",
       "estado": "realizado",
       "asistentes": null,
-      "pasaronAEntrevista": null
+      "pasaron_a_entrevista": null
     },
     {
       "id": "2",
-      "nombre": "Campus Day 2",
-      "fecha": "21 abril 2026",
+      "nombre": "Campus Day",
+      "fecha": "21 de Abril",
       "sede": "Desamparados",
       "estado": "realizado",
       "asistentes": null,
-      "pasaronAEntrevista": null
+      "pasaron_a_entrevista": null
     },
     {
       "id": "3",
-      "nombre": "Campus Day 3",
-      "fecha": "8 mayo 2026",
+      "nombre": "Campus Day",
+      "fecha": "8 de Mayo",
       "sede": "Puntarenas",
       "estado": "pendiente",
       "asistentes": null,
-      "pasaronAEntrevista": null
+      "pasaron_a_entrevista": null
     },
     {
       "id": "4",
-      "nombre": "Campus Day 4",
-      "fecha": "12 mayo 2026",
+      "nombre": "Campus Day",
+      "fecha": "12 de Mayo",
       "sede": "Desamparados",
       "estado": "pendiente",
       "asistentes": null,
-      "pasaronAEntrevista": null
+      "pasaron_a_entrevista": null
     },
     {
       "id": "5",
-      "nombre": "Campus Day 5",
-      "fecha": "22 mayo 2026",
+      "nombre": "Campus Day",
+      "fecha": "22 de Mayo",
       "sede": "Puntarenas",
       "estado": "pendiente",
       "asistentes": null,
-      "pasaronAEntrevista": null
+      "pasaron_a_entrevista": null
     },
     {
       "id": "6",
-      "nombre": "Campus Day 6",
-      "fecha": "5 junio 2026",
+      "nombre": "Campus Day",
+      "fecha": "5 de Junio",
       "sede": "Puntarenas",
       "estado": "pendiente",
       "asistentes": null,
-      "pasaronAEntrevista": null
+      "pasaron_a_entrevista": null
     }
   ],
   "fases": [

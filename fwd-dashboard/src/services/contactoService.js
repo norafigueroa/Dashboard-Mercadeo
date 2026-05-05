@@ -1,23 +1,23 @@
-import axios from 'axios';
+import api from './api';
 
-const API_URL = 'http://localhost:3001/contactoInicial';
+const ENDPOINT = '/contactos';
 
 export const getContactos = async () => {
-  const response = await axios.get(API_URL);
+  const response = await api.get(ENDPOINT);
   return response.data;
 };
 
 export const createContacto = async (contacto) => {
-  const response = await axios.post(API_URL, contacto);
+  const response = await api.post(ENDPOINT, contacto);
   return response.data;
 };
 
 export const updateContacto = async (id, contacto) => {
-  const response = await axios.put(`${API_URL}/${id}`, contacto);
+  const response = await api.put(`${ENDPOINT}/${id}`, contacto);
   return response.data;
 };
 
 export const deleteContacto = async (id) => {
-  const response = await axios.delete(`${API_URL}/${id}`);
+  const response = await api.delete(`${ENDPOINT}/${id}`);
   return response.data;
 };

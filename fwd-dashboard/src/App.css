@@ -14,9 +14,23 @@
   flex-direction: column;
 }
 
-.sidebar h2 {
-  margin-top: 0;
+.sidebar-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 40px;
+}
+
+.sidebar-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 8px; /* Opcional si quieres un borde suave */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.sidebar h2 {
+  margin: 0;
   font-size: 24px;
   font-weight: 700;
   text-align: center;
@@ -59,4 +73,27 @@
   background-color: #f8fafc;
   overflow-y: auto;
   max-height: 100vh;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.btn-logout {
+  width: 100%;
+  padding: 12px;
+  background-color: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.btn-logout:hover {
+  background-color: #ef4444;
+  color: white;
 }

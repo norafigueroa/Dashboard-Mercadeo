@@ -4,77 +4,41 @@ import SelectorGeneracion from './SelectorGeneracion';
 import './EstadisticasAcademicas.css';
 
 const EstadisticasAcademicas = () => {
-  const [generaciones, setGeneraciones] = useState([]);
-  const [selectedId, setSelectedId] = useState('');
-  const [loading, setLoading] = useState(true);
+  const [generaciones, setGeneraciones] = useState([
+    {
+      id: 'gen-muestra',
+      nombre: 'Generación II 2026 (Muestra)',
+      becasTotal: 60,
+      becasPuntarenas: 30,
+      becasDesamparados: 30,
+      ingresaronSemanaPrueba: 60,
+      permanentes: 52,
+      abandonaronPrueba: 8,
+      completaronFrontend: 45,
+      completaronBackend: 40,
+      graduadosFullStack: 38,
+      inicioInscripciones: '15 de Febrero 2026',
+      cierreInscripciones: '31 de Marzo 2026',
+      semanaPrueba: '13 al 17 de Abril 2026',
+      inicioOficial: '20 de Abril 2026',
+      graduacion: '15 de Diciembre 2026'
+    }
+  ]);
+  const [selectedId, setSelectedId] = useState('gen-muestra');
+  const [loading, setLoading] = useState(false);
   const [isSaving, setIsSaving] = useState(false);
   
   const [formData, setFormData] = useState({
-    becasTotal: 0,
-    becasPuntarenas: 0,
-    becasDesamparados: 0,
-    ingresaronSemanaPrueba: 0,
-    permanentes: 0,
-    abandonaronPrueba: 0,
-    completaronFrontend: 0,
-    completaronBackend: 0,
-    graduadosFullStack: 0
+    becasTotal: 60,
+    becasPuntarenas: 30,
+    becasDesamparados: 30,
+    ingresaronSemanaPrueba: 60,
+    permanentes: 52,
+    abandonaronPrueba: 8,
+    completaronFrontend: 45,
+    completaronBackend: 40,
+    graduadosFullStack: 38
   });
-
-  const fetchData = async () => {
-    try {
-      setLoading(true);
-      const data = await getGeneraciones();
-      setGeneraciones(data);
-      
-      if (data.length > 0) {
-        const idToSelect = selectedId || data[0].id;
-        if (!selectedId) setSelectedId(data[0].id);
-        
-        const selectedGen = data.find(g => g.id === idToSelect);
-        if (selectedGen) {
-          setFormData({
-            becasTotal: selectedGen.becasTotal || 0,
-            becasPuntarenas: selectedGen.becasPuntarenas || 0,
-            becasDesamparados: selectedGen.becasDesamparados || 0,
-            ingresaronSemanaPrueba: selectedGen.ingresaronSemanaPrueba || 0,
-            permanentes: selectedGen.permanentes || 0,
-            abandonaronPrueba: selectedGen.abandonaronPrueba || 0,
-            completaronFrontend: selectedGen.completaronFrontend || 0,
-            completaronBackend: selectedGen.completaronBackend || 0,
-            graduadosFullStack: selectedGen.graduadosFullStack || 0
-          });
-        }
-      }
-    } catch (error) {
-      console.error('Error fetching generaciones:', error);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
-
-  useEffect(() => {
-    if (generaciones.length > 0 && selectedId) {
-      const selectedGen = generaciones.find(g => g.id === selectedId);
-      if (selectedGen) {
-        setFormData({
-          becasTotal: selectedGen.becasTotal || 0,
-          becasPuntarenas: selectedGen.becasPuntarenas || 0,
-          becasDesamparados: selectedGen.becasDesamparados || 0,
-          ingresaronSemanaPrueba: selectedGen.ingresaronSemanaPrueba || 0,
-          permanentes: selectedGen.permanentes || 0,
-          abandonaronPrueba: selectedGen.abandonaronPrueba || 0,
-          completaronFrontend: selectedGen.completaronFrontend || 0,
-          completaronBackend: selectedGen.completaronBackend || 0,
-          graduadosFullStack: selectedGen.graduadosFullStack || 0
-        });
-      }
-    }
-  }, [selectedId, generaciones]);
 
   const handleSelectChange = (id) => {
     setSelectedId(id);
@@ -88,24 +52,18 @@ const EstadisticasAcademicas = () => {
     }));
   };
 
-  const handleSave = async () => {
-    try {
-      setIsSaving(true);
-      await updateGeneracion(selectedId, formData);
-      await fetchData();
-      alert('Datos guardados exitosamente');
-    } catch (error) {
-      console.error('Error saving data:', error);
-      alert('Error al guardar datos');
-    } finally {
+  const handleSave = () => {
+    // Simulación de guardado para la demo
+    setIsSaving(true);
+    setTimeout(() => {
       setIsSaving(false);
-    }
+      Swal.fire('¡Éxito!', 'Los datos (demo) se han actualizado visualmente.', 'success');
+    }, 500);
   };
 
   const genData = generaciones.find(g => g.id === selectedId);
 
-  if (loading) return <div className="loading">Cargando Estadísticas Académicas...</div>;
-  if (!genData) return <div>No hay datos de generación disponibles.</div>;
+  if (!genData) return <div className="loading">Cargando datos de muestra...</div>;
 
   // Cálculos automáticos
   const ingresaron = formData.ingresaronSemanaPrueba || 0;
@@ -203,9 +161,18 @@ const EstadisticasAcademicas = () => {
         
         <div className="modulo-row">
           <div className="modulo-info">
-            <label>Módulo Frontend</label>
-            <input type="number" name="completaronFrontend" value={formData.completaronFrontend} onChange={handleInputChange} />
-            <span>completaron</span>
+            <label>Completaron Frontend (Pasan a Backend)</label>
+            <div className="modulo-inputs">
+              <div className="sede-mini-input">
+                <span className="label-punta">Puntarenas:</span>
+                <input type="number" value={22} readOnly title="Dato de muestra" />
+              </div>
+              <div className="sede-mini-input">
+                <span className="label-desam">Desamparados:</span>
+                <input type="number" value={23} readOnly title="Dato de muestra" />
+              </div>
+            </div>
+            <span className="total-badge">Total: 45 estudiantes</span>
           </div>
           <div className="progress-bar-container">
             <div className="progress-bar-fill bg-frontend" style={{width: `${Math.min(100, progFront)}%`}}>
@@ -216,9 +183,18 @@ const EstadisticasAcademicas = () => {
 
         <div className="modulo-row">
           <div className="modulo-info">
-            <label>Módulo Backend</label>
-            <input type="number" name="completaronBackend" value={formData.completaronBackend} onChange={handleInputChange} />
-            <span>completaron</span>
+            <label>Completaron Backend (Fase Final)</label>
+            <div className="modulo-inputs">
+              <div className="sede-mini-input">
+                <span className="label-punta">Puntarenas:</span>
+                <input type="number" value={19} readOnly title="Dato de muestra" />
+              </div>
+              <div className="sede-mini-input">
+                <span className="label-desam">Desamparados:</span>
+                <input type="number" value={21} readOnly title="Dato de muestra" />
+              </div>
+            </div>
+            <span className="total-badge">Total: 40 estudiantes</span>
           </div>
           <div className="progress-bar-container">
             <div className="progress-bar-fill bg-backend" style={{width: `${Math.min(100, progBack)}%`}}>
@@ -229,9 +205,18 @@ const EstadisticasAcademicas = () => {
 
         <div className="modulo-row">
           <div className="modulo-info">
-            <label>Graduados Full Stack</label>
-            <input type="number" name="graduadosFullStack" value={formData.graduadosFullStack} onChange={handleInputChange} />
-            <span>graduados</span>
+            <label>Graduados Full Stack (Meta Final)</label>
+            <div className="modulo-inputs">
+              <div className="sede-mini-input">
+                <span className="label-punta">Puntarenas:</span>
+                <input type="number" value={18} readOnly title="Dato de muestra" />
+              </div>
+              <div className="sede-mini-input">
+                <span className="label-desam">Desamparados:</span>
+                <input type="number" value={20} readOnly title="Dato de muestra" />
+              </div>
+            </div>
+            <span className="total-badge gradient">Total: 38 graduados</span>
           </div>
           <div className="progress-bar-container">
             <div className="progress-bar-fill bg-fullstack" style={{width: `${Math.min(100, progFull)}%`}}>

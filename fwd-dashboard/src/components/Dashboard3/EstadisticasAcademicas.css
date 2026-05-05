@@ -275,3 +275,54 @@
 .bg-frontend { background: linear-gradient(90deg, #f59e0b 0%, #fbbf24 100%); }
 .bg-backend { background: linear-gradient(90deg, #3b82f6 0%, #60a5fa 100%); }
 .bg-fullstack { background: linear-gradient(90deg, #10b981 0%, #34d399 100%); }
+
+/* ── ACADEMIC BREAKDOWN BY SEDE ── */
+.modulo-inputs {
+  display: flex;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.sede-mini-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #f1f5f9;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+}
+
+.sede-mini-input span {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.sede-mini-input input {
+  width: 40px !important;
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  font-weight: 700 !important;
+  color: #1e293b !important;
+  text-align: center;
+}
+
+.label-punta { color: #2563eb; }
+.label-desam { color: #ea580c; }
+
+.total-badge {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #64748b;
+  margin-bottom: 5px;
+}
+
+.total-badge.gradient {
+  color: #059669;
+  background: #ecfdf5;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
